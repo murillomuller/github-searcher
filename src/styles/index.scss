@@ -1,0 +1,42 @@
+$theme-colors: (
+    "primary":    #F7B718,
+    "secondary":  #252525,
+    "success":    #28A745,
+    "info":       #17A2B8,
+    "warning":    #FAA62A,
+    "danger":     #DC3545,
+    "light":      #F2F2F2,
+    "dark":       #211D1E,
+);
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.small-text {
+    font-size: 13px;
+}
+
+.card {
+    border-color: #f2f2f2
+}
+
+.card-button {
+    cursor: pointer;
+}
+
+.page-link {
+    color: $gray-800;
+}
+.page-link b {
+    color: $yellow;
+}
+
+.page-link:hover {
+    color: $gray-600;
+}
+
+@media (max-width: 768px) {
+    .btn-search {
+      width: 100%;
+    }
+  }
