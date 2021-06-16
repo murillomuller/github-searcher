@@ -30,16 +30,16 @@ function Paginator(props) {
         <nav >
             <ul className="pagination justify-content-center">
                 {pageInt > 1 && <li className="page-item">
-                    <Link to={`${url}1`} className="page-link" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
+                    <Link to={`${url}1`} className="page-link">
+                        <span>&laquo;</span>
                     </Link>
                 </li>}
                 {pageInt > 1 && <li className="page-item"><Link to={`${url}${pageInt - 1}`} className="page-link" >{pageInt - 1}</Link></li>}
                 <li className="page-item"><Link to={`${url}${pageInt}`} className="page-link" ><b>{pageInt}</b></Link></li>
                 {pageInt < parseInt(totalPages) && <li className="page-item"><Link to={`${url}${pageInt + 1}`} className="page-link" >{pageInt + 1}</Link></li>}
                 {pageInt < parseInt(totalPages) && <li className="page-item">
-                    <Link to={`${url}${parseInt(totalPages)}`} className="page-link" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
+                    <Link to={`${url}${parseInt(totalPages)}`} className="page-link">
+                        <span>&raquo;</span>
                     </Link>
                 </li>}
             </ul>

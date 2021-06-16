@@ -5,7 +5,7 @@ function SearchField(props){
         
         return (
             <React.Fragment>
-                <div className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <div className="col-xs-12 col-sm-12 col-8 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                     <input type="search" onChange={(event) => setSearchField(event.target.value)} value={searchField} className="form-control form-control-dark" placeholder="Buscar..." />
                 </div>
 
