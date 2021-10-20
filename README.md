@@ -1,4 +1,3 @@
-# Projeto Compasso UOL
 ## Buscador de Usuários no GITHUB
 
 
