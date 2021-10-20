@@ -1,21 +1,21 @@
-## Buscador de Usuários no GITHUB
+## GITHUB User Searcher
 
 
 ## Objetivo
 
-- Ferramenta para busca de usuários utilizando a api do Github
+- Tool to find users using GitHUB api.
 
 
-## Executar
+## To Run
 
-Para executar o código deverá seguir os passos abaixos.
+To run the code use the following steps:
 
 ```sh
 npm install
 npm start
 ```
 
-## Tecnologias
+## Tecnology
 
 
 | Plugin |
